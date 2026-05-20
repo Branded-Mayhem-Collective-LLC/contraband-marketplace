@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "contraband",
+  "description": "Contraband — the Full Mayhem Stack. Five plugins from Branded Mayhem Collective: strategy, content, SEO, conversion, and sales. Bought separately or as the $647 stack at https://contraband.brandedmayhem.com.",
+  "owner": {
+    "name": "Branded Mayhem Collective",
+    "email": "hello@brandedmayhem.com"
+  },
+  "plugins": [
+    {
+      "name": "brandprint-engine",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/brandprint-engine"
+      },
+      "description": "Six-layer brand strategy chain + deep-research engine. Produces a consulting-grade Brand Strategy & Competitive Positioning Report.",
+      "category": "strategy",
+      "tags": ["brand", "strategy", "research", "positioning"]
+    },
+    {
+      "name": "content-creative-lab",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/content-creative-lab"
+      },
+      "description": "Eight-skill content lab: voice profiling, humanization, narrative structure, focus-group simulation, Mayhem Method AI workflows.",
+      "category": "content",
+      "tags": ["content", "voice", "humanize", "linkedin"]
+    },
+    {
+      "name": "seo-visibility-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/seo-visibility-toolkit"
+      },
+      "description": "DataForSEO automation, local-services SEO matrix, ai-agent-readiness audits, AI-commerce data-density playbook.",
+      "category": "seo",
+      "tags": ["seo", "dataforseo", "ai-search", "local-seo"]
+    },
+    {
+      "name": "conversion-architecture",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/conversion-architecture"
+      },
+      "description": "Neuro-design playbook, UX/UI choice-architecture, fairness anchor pricing ladder.",
+      "category": "conversion",
+      "tags": ["conversion", "ux", "pricing", "neuro-design"]
+    },
+    {
+      "name": "sales-accelerator",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/sales-accelerator"
+      },
+      "description": "Pitching pivot methodology, outreach diagnosis, sales-simulator practice arena.",
+      "category": "sales",
+      "tags": ["sales", "outreach", "pitching", "simulator"]
+    }
+  ]
+}
