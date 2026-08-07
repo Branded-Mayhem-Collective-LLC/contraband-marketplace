@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "contraband",
-  "description": "Contraband — the Full Mayhem Stack. Five plugins from Branded Mayhem Collective: strategy, content, SEO, conversion, and sales. Bought separately or as the $647 stack at https://contraband.brandedmayhem.com.",
+  "description": "Contraband \u2014 the Full Mayhem Stack. Six free, MIT-licensed Claude plugins from Branded Mayhem Collective: brand strategy, product strategy, content, SEO, conversion, and sales. https://8gnc.io/products",
   "owner": {
     "name": "Branded Mayhem Collective",
     "email": "hello@brandedmayhem.com"
@@ -15,7 +15,27 @@
       },
       "description": "Six-layer brand strategy chain + deep-research engine. Produces a consulting-grade Brand Strategy & Competitive Positioning Report.",
       "category": "strategy",
-      "tags": ["brand", "strategy", "research", "positioning"]
+      "tags": [
+        "brand",
+        "strategy",
+        "research",
+        "positioning"
+      ]
+    },
+    {
+      "name": "productprint-engine",
+      "source": {
+        "source": "github",
+        "repo": "Branded-Mayhem-Collective-LLC/productprint-engine"
+      },
+      "description": "Six-layer product strategy chain: Playing-to-Win cascade, Now/Next/Later roadmap, adversarial pre-mortem. Produces an Integrated Product Strategy Thesis.",
+      "category": "strategy",
+      "tags": [
+        "product-strategy",
+        "roadmap",
+        "positioning",
+        "pre-mortem"
+      ]
     },
     {
       "name": "content-creative-lab",
@@ -25,7 +45,12 @@
       },
       "description": "Eight-skill content lab: voice profiling, humanization, narrative structure, focus-group simulation, Mayhem Method AI workflows.",
       "category": "content",
-      "tags": ["content", "voice", "humanize", "linkedin"]
+      "tags": [
+        "content",
+        "voice",
+        "humanize",
+        "linkedin"
+      ]
     },
     {
       "name": "seo-visibility-toolkit",
@@ -35,7 +60,12 @@
       },
       "description": "DataForSEO automation, local-services SEO matrix, ai-agent-readiness audits, AI-commerce data-density playbook.",
       "category": "seo",
-      "tags": ["seo", "dataforseo", "ai-search", "local-seo"]
+      "tags": [
+        "seo",
+        "dataforseo",
+        "ai-search",
+        "local-seo"
+      ]
     },
     {
       "name": "conversion-architecture",
@@ -45,7 +75,12 @@
       },
       "description": "Neuro-design playbook, UX/UI choice-architecture, fairness anchor pricing ladder.",
       "category": "conversion",
-      "tags": ["conversion", "ux", "pricing", "neuro-design"]
+      "tags": [
+        "conversion",
+        "ux",
+        "pricing",
+        "neuro-design"
+      ]
     },
     {
       "name": "sales-accelerator",
@@ -55,7 +90,12 @@
       },
       "description": "Pitching pivot methodology, outreach diagnosis, sales-simulator practice arena.",
       "category": "sales",
-      "tags": ["sales", "outreach", "pitching", "simulator"]
+      "tags": [
+        "sales",
+        "outreach",
+        "pitching",
+        "simulator"
+      ]
     }
   ]
 }
