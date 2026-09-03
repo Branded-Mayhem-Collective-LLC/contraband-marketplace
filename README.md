@@ -1,8 +1,10 @@
-# Contraband Marketplace
+# Contraband Marketplace (Legacy)
 
-> The master Claude Code plugin marketplace for Branded Mayhem Collective's [Full Mayhem Stack](https://8gnc.io/products). Six plugins, 37 skills, one marketplace. Free and MIT-licensed.
+> **New installs should use [8gnc — Brand Growth Diagnostic](https://8gnc.io/products/8gnc).** The maintained successor packages the same method family behind one diagnostic router for Claude Code, ChatGPT, and Codex: <https://github.com/Branded-Mayhem-Collective-LLC/8gnc-plugin>.
 
-## Install
+“Full Mayhem Stack” is retired as the umbrella bundle name. This repository remains available so existing Claude Code installations can keep updating the six independent specialist plugins. It will not become the cross-platform aggregate.
+
+## Existing installations
 
 In Claude Code:
 
@@ -18,7 +20,14 @@ In Claude Code:
 
 Verify with `/plugin list` — you should see 6 plugins enabled, totaling 37 skills.
 
-Only want one? Every plugin's own repo is also a standalone marketplace — add that repo and install from there instead.
+The six specialist repositories remain public, independent, and installable on their own. They are not replaced or rewritten by the successor package.
+
+For a new aggregate installation, use 8gnc instead:
+
+```text
+/plugin marketplace add Branded-Mayhem-Collective-LLC/8gnc-plugin
+/plugin install 8gnc@8gnc
+```
 
 ## What's in the stack
 
@@ -48,6 +57,6 @@ Every plugin in this marketplace is MIT-licensed. Use them, fork them, ship clie
 
 ## Support
 
-- Product pages: https://8gnc.io/products
+- Canonical 8gnc plugin: https://8gnc.io/products/8gnc
 - Email: hello@brandedmayhem.com
 - Per-plugin issue trackers: see each individual repo
