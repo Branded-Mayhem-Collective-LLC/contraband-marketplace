@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "contraband",
-  "description": "Contraband \u2014 the Full Mayhem Stack. Six free, MIT-licensed Claude plugins from Branded Mayhem Collective: brand strategy, product strategy, content, SEO, conversion, and sales. https://8gnc.io/products",
+  "description": "Legacy Claude marketplace for six independent specialist plugins. New aggregate installs should use 8gnc \u2014 Brand Growth Diagnostic: https://8gnc.io/products/8gnc",
   "owner": {
     "name": "Branded Mayhem Collective",
     "email": "hello@brandedmayhem.com"
